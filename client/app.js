@@ -1,5 +1,5 @@
 async function getMessage() {
-  const res = await fetch("http://localhost:8080/message");
+  const res = await fetch("https://server-test-u7kz.onrender.com/message");
   const json = await res.json();
 
   console.log(json);
